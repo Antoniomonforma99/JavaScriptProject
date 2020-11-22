@@ -9,6 +9,10 @@ export class AdministradorRepo{
         return this.listadAdmin.push(admin);
     }
 
+    delAdmin(admin){
+        return this.listadAdmin.splice(this.listadAdmin.indexOf(this.listadAdmin.buscarPorClave(admin.clave), 1));
+    }
+
     buscarPorClave(clave){
         let devuelto;
 

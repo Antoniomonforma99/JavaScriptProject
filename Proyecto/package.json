@@ -1,0 +1,11 @@
+{
+  "name": "jsproject",
+  "version": "1.0.0",
+  "description": "Proyecto JavaScript Parkin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Montero",
+  "license": "ISC"
+}
